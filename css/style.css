@@ -1,0 +1,200 @@
+.pt-150 {
+    padding-top: 150px;
+}
+
+.pb-150 {
+    padding-bottom: 150px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+@font-face {
+    font-family: "Roboto_Slab";
+    src: url(/assets/downlaod/Roboto_Slab/static/RobotoSlab-Regular.ttf);
+}
+
+.bgimg {
+    background-image: url(../assets/img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+
+}
+
+body {
+    font-family: "Roboto_Slab";
+}
+/* 
+ */
+.nicediv {
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+}
+.bg-dark1 {
+    --bs-bg-opacity: 1;
+    background-color: rgb(33 37 41 / 0%) !important;
+}
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    transition: 0.8s;
+}
+.serv {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+
+.icon1 {
+    font-size: 90px;
+}
+
+.iconss {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serv1 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.card1 {
+    position: relative;
+}
+.bacimg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.3s ease;
+    transform: 5s ease;
+}
+.card1:hover .bacimg {
+  opacity:0.8;
+}
+.imgss1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:400px;
+    height: 300px;
+    text-align: center;
+}
+.eiusss{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    position: relative;
+}
+.eiusss:after{
+    content: '';
+    width: 2px;
+    height: 211px;
+    background-color:rgb(225, 224, 224);
+    left: 0;
+    bottom: -228px;
+    right: 0;
+    position: absolute;
+    display: block;
+    margin: auto;
+}
+/* .temporibuss{
+    width: 65%;
+} */
+.roundimg{
+    border-radius: 50%;
+   border: 8px solid rgb(214, 214, 214);
+   
+}
+.bepaer{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 8px solid rgb(214, 214, 214);
+    background-color: rgb(255, 213, 0);
+}
+.serv2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing:1px;
+}
+.manimg{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 8px solid rgb(214, 214, 214);
+}
+.favicon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.teamsit{
+    width: 70%;
+    font-size: 18px;
+}
+.microimg{
+    width: 230px;
+    height: auto;
+}
+.googleimg{
+    width:130px ;
+    height: auto;
+}
+.facebookimg{
+    width: 180px;
+    height: auto;
+}
+.ipmimg{
+    width: 120px;
+    height: auto;
+}
+.mapbackimg{
+    background-image: url(../assets/img/map-image.png);
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.form-control{
+    width: 100%;
+    text-transform: capitalize;
+    padding: 22px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.form-control-message{
+    width: 100%;
+    text-transform: capitalize;
+    padding: 22px;
+    font-weight: bold;
+    font-size: 19px;
+    height: 258px;
+    border-radius: 6px;
+}
+.sendbtn{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px; 
+    border: none;
+}
